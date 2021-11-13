@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    color: red;
+    background-color: sandybrown;
+    height: 100px;
+    width: 80px;
+    font-size: 20px;
+}

@@ -1,0 +1,782 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+/* NavBar1 Styling */
+.navbar1{
+display: flex;
+text-align: center;
+justify-content: space-evenly;
+background: #131921;
+height: 60px; 
+width: 100%;
+}
+.navbar1 .left{
+    display: flex;
+    
+}
+.navbar1 .right{
+    display: flex;
+}
+.navbar1 .nav-sprite{
+    background-image: url('./img/sprites.png');
+    background-size: 350px;
+}
+.navbar1 .nav-logo{
+    margin: 20px 20px 20px 20px;
+    text-indent: -500px;
+    width: 400;
+    padding: 10px;
+    background-position: -10px -51px;
+    width: 97px;
+    height: 35px;
+}
+#deliver{
+    display: flex;
+    flex-direction: column;
+    padding: 0 9px 0 9px;
+    margin: 8px 2px 5px 0;
+}
+.navbar1 .deliver-to-israel{
+    padding: 0 9px 0 9px;
+    margin: 8px 2px 5px 0;
+}
+#deliver .text1{
+    font-family: "Amazon Ember", Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 15px;
+    display: inline-block;
+}
+#deliver .text2{
+    font-family: "Amazon Ember", Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 14px;
+    margin-right: 15px;
+    color: #ffffff;
+}
+#deliver .text2 i{
+    padding-right: 3px;
+}
+.navbar1 a i{
+    color: #FFFFFF;
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+}
+.nav-link .nav-line2{
+    display: flex;
+}
+#flag{
+    margin: 10px 0px 5px 10px;
+}
+.nav-flag{
+        background-position: 0 -130px;   
+        width: 24px;
+        position: relative;
+        display: inline-block;
+        height: 18px;
+        margin-left: 15px;
+        margin-right: 10px;
+        background-image: url('./img/sprites-flags.png');
+    
+}
+#account-sign{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0 0 0;
+}
+.navbar1 .sign-in{
+    padding: 0 5px 0 0;
+    margin: 8px 0 5px 0;
+}
+#account-sign .text1{
+    font-family: "Amazon Ember", Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+#account-sign .text2{
+    font-family: "Amazon Ember", Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 32px;
+    display: inline-block;
+}
+#texts{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0 0 0;
+}
+.navbar1 .return-order{
+    padding: 0 5px 0 0;
+    margin: 8px 0 5px 0;
+}
+#texts .text1{
+    font-family: "Amazon Ember", Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+#texts .text2{
+    font-family: "Amazon Ember", Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    display: inline-block;
+}
+.navbar1 .buying{
+    padding: 0 5px 0 5px;
+    margin: 8px 0 5px 0;
+    display: flex;
+    color: #FFFFFF;
+}
+.buying-container .nav-cart-count{
+    color: #F08804;
+}
+.buying .cart .line2{
+    margin-top: 25px;
+}
+.navbar1 .buying-container{
+    display: flex;
+    flex-direction: column;
+}
+.navbar1 .cart{
+    display: flex;
+    flex-direction: column;
+}
+.buying-container .nav-cart-icon{
+    background-image: url('./img/sprites.png');
+    background-position: -10px -340px;
+    width: 38px;
+    height: 26px;
+}
+.navbar1 .nav-search{
+    display: flex;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    width: 650px;
+    font-size: 17px;
+    border-radius:30px ;
+}
+#orange{
+background: red;
+}
+input{
+    width: 100%;
+}
+button{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    height: 40px;
+    width: 50px;
+}
+.nav-search .button-search{
+    border-radius: 0 5px 5px 0;
+    background: orange;
+}
+
+.navbar1 a{
+    text-decoration: none;
+}
+.navbar1 a:hover{
+    outline: 1px solid #fff;
+    outline-offset: 0;
+}
+
+/* NavBar2 Styling */
+.navbar2 .left .all{
+    background: url('./img/all.png') no-repeat center center/cover;
+    height: 20px;
+    width: 50px;
+    margin: 10px -5px 10px 10px;
+}
+.navbar2 .nav2 a{
+    text-decoration: none;
+}
+.navbar2{
+    display: flex;
+    justify-content:space-between ;
+    font-family:"Amazon Ember", Arial, sans-serif;
+    background: #232F3E;
+    height: 40px;
+    width: 100%;
+    color: #FFFFFF;
+}
+.navbar2 .left{
+    display: flex;
+    margin-right: 350px;
+}
+.navbar2 .nav2 a{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    width: 400;  
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px;
+}
+.navbar2 .covid-19 a{
+    width: 700;  
+    font-size: 13px;
+    margin-right: 20px;
+}
+.navbar2 a:hover{
+    outline: 1px solid #fff;
+    outline-offset: 0;
+}
+
+/* NavBar3 Styling */
+.navbar3{
+    display: flex;
+    justify-content: space-around;
+    background: #FAFAFA;
+    height: 32px;
+    width: 100%;
+    padding: 0 20px;
+    }
+.navbar3 .nav3 a{
+    display: flex;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    width: 400;  
+    line-height: 33px;
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+}
+.navbar3 .nav3 a:hover{
+    color: #e47911;
+    border-bottom: 2px solid #f90;;
+}
+
+/* NavBar4 Styling */
+.navbar4{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.navbar4 .nav4 a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    width: 400;
+    color: #565959;
+    font-style: normal;
+    font-family:"Amazon Ember", Arial, sans-serif;
+}
+.navbar4 a:hover{
+    text-decoration: underline;
+}
+/* Main content */
+.main-content{
+
+    margin-top: 20px;
+}
+.content-top{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-image{
+    display: flex;
+}
+.content-center{
+    width: 33%;
+}
+.images .img{
+    margin: 10px 0 0px 20px ;
+    border: 1px #BCBEBE solid;
+    width: 40px;
+    height: 40px;
+}
+.big-image{
+    margin: 20px;
+    height: 500px;
+    width: 400px;
+}
+.images .img:hover{
+    cursor: pointer;
+    border: 1px #FFA41C solid;
+}
+.images .img1{
+background: url('./img/smallimg1.jpg');
+}
+.images .img2{
+background: url('./img/smallimg2.jpg');
+}
+.images .img3{
+background: url('./img/smallimg3.jpg');
+}
+.images .img4{
+background: url('./img/smallimg4.jpg');
+}
+.images .img5{
+background: url('./img/smallimg5.jpg');
+}
+.images .img6{
+background: url('./img/smallimg6.jpg');
+}
+.texts{
+    border-bottom: 1px #e7e7e7 solid;
+    margin-left: 10px;
+}
+.texts a{
+    text-decoration: none;
+}
+.texts .txt{
+    padding: 2px 0;
+}
+.texts2 .txt{
+    padding: 2.5px 0;
+}
+
+.texts .text1{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0f1111;
+} 
+.texts .text2 a{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007185;
+}
+.texts .text2 a:hover{
+    text-decoration: underline;
+    color: #c7511f;
+}
+.texts .text3 a{   
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007185;
+}
+.texts .text3 a:hover{
+    text-decoration: underline;
+    color: #c7511f;
+}
+.texts .text4 a{   
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #007185;
+}
+.texts .text4 a:hover{
+    text-decoration: underline;
+    color: #c7511f;
+}
+.texts2{
+    color: #565959;
+    margin-left: 10px;
+}
+.texts2 a{
+    text-decoration: none;
+}
+.texts2 .text1{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+}
+.texts2 .text1 a{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007185;
+}
+.texts2 .text1 a:hover{
+    text-decoration: underline;
+    color: #c7511f;
+}
+.texts2 .text1 .line{
+    text-decoration: line-through;
+}
+.texts2 .text2{
+    margin-left: 30px;
+}
+.texts2 .text2 .color-red{
+    font-size: 18px;
+    line-height: 24px;
+    color: #b12704;
+}
+.texts2 .text2 .space{
+    margin-left: 40px;
+}
+.texts2 .text2 .space2{
+    margin-left: 40px;
+}
+.texts2 .text2 .free-ship{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+}
+.texts2 .text2 a{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007185;
+}
+.texts2 .text2 a:hover{  
+    color: #c7511f;
+}
+.texts2 .text3 .color-red2{
+    font-size: 14px;
+    line-height: 20px;
+    color: #b12704;
+}
+.texts2 .text4{
+    color: #0f1111;
+    margin-top: 3px;
+}
+.texts2 .text4 a{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007185;
+}
+.texts2 .text4 a:hover{
+    color: #c7511f;
+    text-decoration: underline;
+}
+.texts2 .text5{
+    color: #0f1111;
+    margin-top: 20px;
+}
+.texts2 .text5 .watch-color{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #0f1111;
+}
+.images2{
+    display: flex;
+}
+.images2 .image{
+    margin: 10px 10px 0 0 ;
+    border: 1px #BCBEBE solid;
+    width: 40px;
+    height: 40px;
+}
+.images2 .image:hover{
+    cursor: pointer;
+}
+.images2 .image1{
+border: 1px #FFA41C solid;
+background: url('./img/watch-color1.jpg') no-repeat;
+}
+.images2 .image2{
+background: url('./img/watch-color2.jpg') no-repeat;
+}
+.images2 .image3{
+background: url('./img/watch-color3.jpg') no-repeat;
+}
+.images2 .image4{
+background: url('./img/watch-color4.jpg') no-repeat;
+}
+.images2 .image5{
+background: url('./img/watch-color5.jpg') no-repeat;
+}
+.texts2 .text6{
+    margin-top: 10px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+}
+.texts2 .text6 .color{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #0f1111;
+}
+.texts2 .text7{
+    margin-top: 15px;
+}
+.texts2 .text7 .standard{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-right: 10px;
+    padding: 5px 10px 5px 11px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #0f1111;
+    background: #FEFAF6;
+    border: 1px #FFA41C solid;
+}
+.texts2 .text7 .frustration{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-right: 10px;
+    padding: 5px 10px 5px 11px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ccc;
+    border: 1px #ccc dashed;
+}
+.texts2 .text7 .frustration:hover{
+    color: #0F1111;
+}
+table{
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    color: #0F1111;
+    font-size: 14px;
+    line-height: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.spacing{
+    margin-bottom: 8px
+}
+td.span-1{
+    width: 26.18%;
+}
+td{
+    display: table-cell;
+}
+td,tr{
+    padding: 3px;
+    vertical-align: top;
+}
+table tbody tr td .bold{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;   
+}
+table .bold{
+    font-weight: 700;
+}
+td.span-2{
+    width: 78.68%;
+}
+.texts2{
+    border-bottom: 1px #e7e7e7 solid;
+    margin-left: 10px;
+}
+h1{
+    margin-bottom: 16px!important;
+    margin-top: 8px!important;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.list{
+    margin: 0 0 0 18px;
+    color: #0F1111;
+    margin-bottom: 4px!important;
+}
+.list li, ul li{
+    word-wrap: break-word;
+    list-style: disc;
+}
+ul li{
+    margin-bottom: 2px;
+    color: #0F1111;
+}
+.texts3 .text1 a{
+    text-decoration: none;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007185;
+}
+.texts3 .text1 a span{
+    color: #b12704;
+}
+.texts3 .text1{
+    margin-top: 20px;
+}
+.texts3 .text1 a:hover{
+    color: #c7511f;
+    text-decoration: underline;
+}
+/* content top right */
+.content-right{
+    width: 20%;
+    margin: 10px;
+    border: 1px #e7e7e7 solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+.top .txt{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #565959;
+}
+
+.top .text1 .color-red{
+    font-size: 18px;
+    line-height: 24px;
+    color: #b12704;
+}
+.top .text1 .space{
+    margin-left: 40px;
+}
+.top .text1 .space2{
+    margin-left: 40px;
+}
+.top .text1 .free-ship{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+}
+.top .text1 a{
+    text-decoration: none;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007185;
+}
+.top .text1 a:hover{  
+    color: #c7511f;
+}
+.top .text2{
+    margin-top: 10px;
+}
+.top .text2 .color{
+    color: #0F1111;
+}
+.top .text3 {
+    margin: 20px 0;
+}
+.top .text3 a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    color: #007185;
+}
+.top .text3 a:hover{  
+    color: #c7511f;
+}
+.top .text4 span{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #007600;
+}
+.top .btn{
+    margin: 20px 0;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    background:#F0F2F2;
+    border-radius: 8px;
+    height: 20px;
+    width: 60px;
+}
+.top .btn a{
+    color: #0f1111;
+    text-decoration: none;
+}
+.top .btn:hover{
+    background: gray;
+}
+.top .btn1-2{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    line-height: 29px;
+    height: 30px;
+    width: 205px;
+    padding: 0 10px 0 11px;
+    text-align: center;
+    white-space: nowrap;
+}
+.top .btn1-2 .size{
+    border: 0;
+    border-radius: 10px;
+    margin: 3px;
+    text-decoration: none;
+    color: #0F1111;
+}
+.top .btn1-2 .color1{
+    background: rgb(247, 231, 8);
+}
+.top .btn1-2 .color1:hover{
+    background: #FFA41C;
+}
+.top .btn1-2 .color2{
+    background:chocolate ;
+}
+.top .btn1-2 .color2:hover{
+    background: #FFA41C;
+}

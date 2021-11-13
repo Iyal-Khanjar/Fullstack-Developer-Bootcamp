@@ -1,0 +1,31 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+}
+.filter{
+    font-size: 20px;
+    margin-right: 15px;
+}
+input {
+	margin-top: 30px;
+}
+
+.grid {
+	margin-top: 70px;
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+    justify-items: center;
+    
+}
+.dirDown {
+	display: flex;
+	flex-direction: column;	
+    margin-bottom: 50px;
+}
+img {
+    margin-top: 5px;
+	border-radius: 10px;
+	height: 100px;
+	width: 100px;
+}

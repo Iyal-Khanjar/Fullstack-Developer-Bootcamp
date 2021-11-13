@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9.3-positioning-3</title>
+    <style>
+        .div1{
+             border: black 3px solid;
+             width: 200px;
+             height: 200px;
+             position: absolute;
+             z-index: 0;
+             background: white;
+        }
+        .div2{
+            border: black 3px solid;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            z-index: 1;
+            margin: 150px 100px;
+            background: white;
+        }
+        .div3{
+            border: black 3px solid;
+            width: 600px;
+            height: 100px;
+            position: absolute;
+            z-index: 2;
+            margin: 300px 0px;
+            background: white;
+        }
+        .div4{
+            border: black 3px solid;
+            width: 100px;
+            height: 470px;
+            position: absolute;
+            z-index: 3;
+            margin: 0px 450px;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">div one</div>
+    <div class="div2">div two</div>
+    <div class="div3">div three</div>
+    <div class="div4">div four</div>
+</body>
+</html>

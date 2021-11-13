@@ -1,0 +1,22 @@
+.card {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px black solid;
+	width: 500px;
+	box-shadow: black 5px 5px 5px;
+}
+
+img {   
+	height: 200px;
+	width: 300px;
+}
+
+a {
+	text-decoration: none;
+	margin: 10px;
+	color: rgb(97, 97, 28);
+}
+a:hover{
+	color: rgb(133, 133, 34);
+}

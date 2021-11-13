@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17.5-tooltip</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+         a {
+            text-decoration: none;
+            position: relative;
+            color: rgb(127, 172, 255)
+}
+        a:hover::after {
+            content: attr(data-tooltip);
+            background: yellow;
+            color: red;
+            position: absolute;
+            bottom: 20px;
+            width: 300px;
+            border-radius: 5px;
+            text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum, dolor <br> <a href="#" data-tooltip="This is a badass tooltip">sit</a> amet consectetur adipisicing elit.
+           Illum enim aut sunt hic odit exercitationem vero nihil deleniti
+           <a href="#" data-tooltip="This is a badass tooltip"> nobis</a> quaerat.</p>
+    </div>
+</body>
+</html>

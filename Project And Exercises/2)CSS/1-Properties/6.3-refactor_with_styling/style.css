@@ -1,0 +1,21 @@
+*{
+    background-color: aqua;
+}
+p{ 
+    color: brown;
+    font-size: 30px;
+    font-family: 'Besley', serif;   
+}
+body div p {
+    background-color: burlywood;   
+    padding-left: 3px;   
+}
+body div{
+    background-color: burlywood;
+    border: black 1px solid;
+    width: 350px;      
+}
+img {
+    width: 350px;  
+    height: 170px; 
+}

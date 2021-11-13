@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24.3-responsive_grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: 
+            'header header header'
+            'sidebar content sidebar2'
+            'footer footer footer';
+            grid-gap:1rem;   
+        }
+        .header{
+            grid-area: header;
+            background: red;
+
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background: blue;
+        }
+        .content{
+            grid-area: content;
+            background: green;
+        }
+        .sidebar2{
+            grid-area: sidebar2;
+            background: purple;
+        }
+        .footer{
+            grid-area: footer;
+            background: yellow;
+        }
+        .header,.content,.sidebar,.sidebar2,.footer{
+            border: 1px #ccc solid;
+            padding: 0.5rem;
+            border-radius: 20px;
+        }
+        @media(max-width:768px){       
+        .container {
+             grid-template-areas: 
+            'header header header'
+            'sidebar content content'
+            'sidebar2 sidebar2 sidebar2'
+            'footer footer footer';
+        }
+    }
+        @media(max-width:500px){
+        
+        .container{
+             grid-template-areas: 
+            'header'
+            'sidebar'
+            'content'
+            'sidebar2'
+            'footer';        
+        }
+    }   
+        
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>header</h1>
+        </header>
+        <section class="content">
+            <h3>Content<br>More content then we had before so this column 
+                is now quite tall</h3>
+        </section>
+        <aside class="sidebar"><h3>Sidebar</h3></aside>
+        <aside class="sidebar2"><h3>Sidebar2</h3></aside>
+        <footer class="footer">
+            <h3>Footer</h3>
+        </footer>
+   </div>
+</div>
+</body>
+</html>

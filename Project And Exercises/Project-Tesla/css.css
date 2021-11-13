@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+body{
+    background:url('./img/M3-Hero-LHD-US-M.jpg') no-repeat center
+    center/cover;
+     height: 100vh;
+    font-family:"Gotham SSm", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+     color: #ffffff;
+}
+#navbar {
+  text-align: center;   
+    overflow: auto;
+  }
+  
+  #navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    border: 5px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 8px;
+    size: 14px;
+    line-height: 21px;
+  }
+  #navbar ul li a:hover{
+    background: #696F78;
+  }  
+  #navbar p {
+    float: left;
+    padding-top: 20px;
+  } 
+  #navbar ul {
+    list-style: none;
+    float: right;
+  } 
+  #navbar ul li {
+    float: left;   
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  #navbar ul li .okey{
+      padding-right: 30px;
+  }
+  .btn{
+           
+            
+    background:transparent;
+            border-radius: 15px;
+  }
+.btn:hover{
+  color: red;
+}
+
+  .content{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    height: 400px;
+  }
+  .footer{
+    text-align: center;
+    align-items: center;  
+    padding: 0px 20px;
+    font-size: 28px;
+    line-height: 36px;  
+  }
+  .footer .foot2{
+    font-size: 10px;
+  }
+ 
+  

@@ -1,0 +1,16 @@
+img{
+    width: 300px;
+}
+div{
+    background-color: bisque;
+    width: 300px ;
+}
+h1{
+    padding-left: 0.3rem;
+    margin-bottom: 0px
+}
+p {
+    padding-left: 0.3rem; 
+    font-size: 20px;
+    font: bold;
+}

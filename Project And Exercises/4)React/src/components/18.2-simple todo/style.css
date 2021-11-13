@@ -1,0 +1,11 @@
+input {
+	background: none;
+	border: 0;
+	cursor: pointer;
+}
+.lineThrough {
+	text-decoration: line-through;
+}
+.none {
+	text-decoration: none;
+}
